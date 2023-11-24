@@ -1,3 +1,16 @@
+
+
+body{
+    background-image:url(/assets/background_water.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.main_container{}
+
+
 .psuedo_container{
     width: 100%;
     min-height: 100vh;
