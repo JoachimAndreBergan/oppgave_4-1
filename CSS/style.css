@@ -1,23 +1,18 @@
 
-
-.main_container{
-    background-image:url(/assets/background_water.jpg);
+.menu_container{
+    width: 100%;
+    min-height: 100vh;
+    padding:5%;
+    background: url(/assets/background_water.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
     font-family: sans-serif;
-    backdrop-filter:color solid rgba(0, 3, 159, 0.542);
 }
 
-.logo_menu_bar{
-    background: rgb(rgb(0, 149, 255));
-}
-
-.psuedo_container{
-    width: 100%;
-    min-height: 100vh;
-    padding:5%;
-    background-color: aliceblue;
+.menu_container{
+    background-color: aqua;
+    text-align: center;
 }
 
 .searchbar{
