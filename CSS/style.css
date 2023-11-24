@@ -1,20 +1,4 @@
 
-.menu_container{
-    width: 100%;
-    min-height: 100vh;
-    padding:5%;
-    background: url(/assets/background_water.jpg);
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-.menu_container{
-    background-color: aqua;
-    text-align: center;
-}
-
 .searchbar{
     display: flex;
     align-items: center;
@@ -24,11 +8,12 @@
 .searchbar_form{
     width: 100%;
     max-width: 700px;
-    background-color: rgb(255, 255, 255);
+   
     display: flex;
     align-items: center;
     border-radius: 60px;
     padding:10px 20px ;
+    background-color: white;
 }
 
 .searchbar_form input{
