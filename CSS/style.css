@@ -1,0 +1,57 @@
+.psuedo_container{
+    width: 100%;
+    min-height: 100vh;
+    padding:5%;
+    background-color: aliceblue;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar_form{
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding:10px 20px ;
+}
+
+.searchbar_form input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+::placeholder{
+    color: rgb(121, 121, 121);
+}
+
+.searchbar_form button img{
+width: 25px;
+}
+
+.searchbar_form button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: white;
+    cursor: pointer;
+    }
+
+.searchbar :hover{
+    border: 3px solid turquoise;
+}
+
+.searchbar_form :hover{
+    border: 0px;
+}
