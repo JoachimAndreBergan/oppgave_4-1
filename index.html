@@ -3,82 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oppgave_4</title>
+    <title>Oppgave 4 Try 2</title>
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/variables.css">
     <link rel="stylesheet" href="./CSS/fonts.css">
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
-
-
 <body>
     <div class="main_container">
 
-        <div class="menu_container">
-            
-            <a class="logo_link"  href="index.html"><img src="./assets/logo_med_tekst.svg" alt="Logo"></a>
+
+        <div class="header_container">
+
+            <div class="logo_container">
+            <a href="index.html"><img src="./assets/logo_med_tekst.svg" alt="Logo"></a>
+            </div>
 
 
-            <select name="dropdown_menu" id="dropdown_menu">
-                <option value="blank"></option>
-                <option value="home"><a href="index.html">Home</a></option>
-                <option value="contact"><a href="contact.html">Contact</a></option>
-            </select>
-                
-        </div>
+            <div class="menu_container">
+                <button class="menu_button"><img src="./assets/menu-burger.png"></button>
+                    <div class="menu_panel">
+                    <a href="index.html"><p>Home</p></a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div> 
 
 
         <div class="psuedo_container">
-
-            <div class="searchbar">
-                <form action="http://google.com/search" method="get"  class="searchbar_form">
-                    <input type="text" placeholder="search anything" name="q">
-                    <button type="submit"><img src="./assets/spyglass_icon.svg"></button>
-                </form>
-
-
-
-            </div>
-            
-            <div class="form_container">
-
-                <form action="main.js" method="post">
-                    
-                    <label for="name_input">Enter Your Name</label>
-                    <input id="name_input"  type="text" name="name_input" value="empty">
-
-                    
-                    <label for="checkbox_question">Are You Human?</label>
-                    <input type="checkbox" name="checkbox_question" id="checkbox_question">
-
-                    <div class="dropdown_container">
-                    <label for="dropdown_menu">Cats, or dogs?</label>
-                    <select name="dropdown_menu" id="dropdown_menu">
-                        <option value="cats">Cats</option>
-                        <option value="dogs">Dogs</option>
-                        <option value="cappybaras">I prefer Cappybaras</option>
-                    </select>
-                    </div>
-
-                    <input type="submit" name="submit_button" id="submit_button" value="Send">
-
-                </form>
-
-                
-            </div>
-
-
-
-            <div class="shortcut_buttons">
-                <img src="./assets/phone_icon.svg" alt="Circle with a phone icon">
-                <img src="./assets/mail_icon.svg" alt="Circle with envolope icon">
-                <img src="./assets/socialMedia_icon.svg" alt="Circle with a icon of a computer with a woman emoji">
-                <img src="./assets/location_icon.svg" alt="Circle with a loacation symbol inside">
-            </div>
+        
+        <div class="searchbar">
+            <form action="http://www.google.com/search" method="get" class="searchbar_form">
+                <input type="text" placeholder="Search Anything" name="q">
+                <button type="submit"><img src="./assets/spyglass_icon.svg" alt=""></button>
+            </form>
         </div>
 
-    </div>
+            <button class="accordion">Litt om denne siden</button>
+            <div class="panel">
+                <p>Denne siden minner meg om sjøen, vakker men full av feil</p>
+            </div>
 
+        <div class="checkbox_container">
+            <label class="checkbox_label">Har du husket alt?
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <div class="send_button_container">
+            <button type="submit"><span>Send</span></button>
+
+        </div>
+
+        <div class="shortcut_buttons_container">
+            <a href="contact.html"><img src="./assets/phone_icon.svg" alt=""></a>
+            <a href="contact.html"><img src="./assets/mail_icon.svg" alt=""></a>
+            <a href="contact.html"><img src="./assets/socialMedia_icon.svg" alt=""></a>
+            <a href="contact.html"><img src="./assets/location_icon.svg" alt=""></a>
+
+
+        </div>
+
+
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

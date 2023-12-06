@@ -1,0 +1,2 @@
+Assignment 4 contains a Figma file with self made components, and a website using all said components. As I understand it I have slightly misunderstood the assignment. I have now heard that the website were suposed to be a list with the components. While I made a full website with all the components. I don´t know witch one is right, since the assignment text does not clearify specifically. 
+Alas, all my components ar interactive, with function.
